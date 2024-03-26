@@ -132,11 +132,13 @@ input:focus {
  
 }
 
-input:invalid {
+input:invalid,
+input.invalid {
     border-style: solid;
     border-color: #fc0101;
 
 }
+
 
 input {
     border-style: solid;
