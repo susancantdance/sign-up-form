@@ -12,6 +12,7 @@ pw2.addEventListener("input", (event) => {
     if(pw1.value === pw2.value){
         error.textContent = '';
         pw1.classList.remove('invalid');
+        pw2.classList.remove('invalid');
     }
 
 })
